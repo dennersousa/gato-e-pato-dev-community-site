@@ -1,0 +1,116 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 1%;
+    height: 1000px;
+    background-color: #fff;
+    color: #333;
+}
+
+#artigos {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 1%;
+    height: 2000px;
+    background-color: #fff;
+    color: #333;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 1%;
+    text-align: center;
+}
+
+header img {
+    max-width: 150px;
+}
+
+nav {
+    background-color: #b2f3f5;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em;
+}
+
+nav a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    max-width: 900px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(148, 235, 241, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+p {
+    line-height: 1.6;
+    color: #000000;
+}
+
+#paragrafo {
+    line-height: 1.6;
+    color: #000000;
+    text-align: justify;
+}
+
+.linkedin-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+#paragrafo1, #paragrafo2 {
+    text-align: left;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #b2f3f5;
+    color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e2d067;
+}
+
+footer {
+    background-color: #b2f3f5;
+    color: #ffffff;
+    text-align: center;
+    padding: 0.1%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: none;
+}
+
+h2 {
+    margin: 0 auto;
+    max-width: 800px; 
+}
+
+a:link {
+    text-decoration:none;
+    }
+    a:visited {
+    text-decoration:none;
+    }
+    a:hover {
+    text-decoration:underline;
+    }
